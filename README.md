@@ -2,6 +2,8 @@
 
 A Python script to scrape movie transcripts from [subslikescript.com](https://subslikescript.com).
 
+---
+
 ## 📌 About
 
 This script allows you to automatically collect movie transcripts using web scraping. It's useful for:
@@ -10,16 +12,24 @@ This script allows you to automatically collect movie transcripts using web scra
 - Building NLP datasets
 - Practicing web scraping techniques
 
-## 🐍 Technologies Used
+---
 
-- Python 3
-- `requests`
-- `BeautifulSoup` (bs4)
-- `lxml` or `html.parser` (depending on your parser choice)
+## ✨ Features
 
-## 🚀 How to Use
+- Scrapes movie titles and full scripts  
+- Saves each script as a `.txt` file  
+- Simple and lightweight
 
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/your-username/movie-transcript-scraper.git
-   cd movie-transcript-scraper
+---
+
+## 🛠 Requirements
+
+- Python 3.x  
+- `requests`  
+- `beautifulsoup4`  
+- `lxml`  
+
+### Install with:
+
+```bash
+pip install -r requirements.txt
